@@ -10,8 +10,8 @@
 /* Basic body styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f7fc;
-    color: #333;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -25,7 +25,7 @@ a {
 
 /* Header and navigation */
 header {
-    background-color: #1e2a33;
+    background-color: #1e2a33; /* Dark header */
     padding: 20px 0;
     color: white;
 }
@@ -60,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff4757;
+    color: #ff4757; /* Bright hover effect */
 }
 
 /* Hero Section */
@@ -70,7 +70,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    background-color: #1e2a33;
+    background-color: #1e2a33; /* Dark background */
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -89,7 +89,7 @@ nav a:hover {
 
 .cta-button {
     padding: 12px 30px;
-    background-color: #ff4757;
+    background-color: #ff4757; /* Button background color */
     color: white;
     font-size: 18px;
     font-weight: 600;
@@ -99,7 +99,7 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #e84118;
+    background-color: #e84118; /* Darker hover effect */
 }
 
 /* Section Styles */
@@ -109,13 +109,13 @@ section {
 }
 
 h2, h3 {
-    color: #333;
+    color: #ffffff; /* Light color for headings */
     margin-bottom: 20px;
 }
 
 p {
     font-size: 18px;
-    color: #666;
+    color: #b0b0b0; /* Lighter color for paragraph text */
     max-width: 800px;
     margin: 0 auto;
 }
@@ -130,8 +130,8 @@ p {
 }
 
 #featured-codes li {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    background-color: #2c2c2c; /* Dark background for list items */
+    border: 1px solid #444; /* Slightly lighter border */
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -144,25 +144,25 @@ p {
 }
 
 #featured-codes li h4 {
-    color: #333;
+    color: #ffffff; /* Light heading text */
     margin-bottom: 10px;
 }
 
 #featured-codes li p {
     font-size: 16px;
-    color: #555;
+    color: #bbb; /* Lighter text for description */
 }
 
 /* Footer */
 footer {
-    background-color: #1e2a33;
+    background-color: #1e2a33; /* Dark footer */
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 footer a {
-    color: #ff4757;
+    color: #ff4757; /* Bright footer link color */
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
