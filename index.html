@@ -6,11 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="3;url=website/index.html">
     <title>Redirecting...</title>
+
+    <!-- Adding some basic styles to improve UX -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f7fc;
+            margin: 0;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #ff4757;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #e84118;
+        }
+
+        .container {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Redirecting to the main page...</h1>
-    <p>If you are not automatically redirected, <a href="website/index.html">click here</a>.</p>
+    <div class="container">
+        <h1>Redirecting...</h1>
+        <p>You are being automatically redirected to the main page. If the redirect does not happen within a few seconds, please <a href="website/index.html">click here</a>.</p>
+    </div>
 </body>
 
 </html>
